@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'users/new'
 
   namespace :api do
     namespace :v1 do
